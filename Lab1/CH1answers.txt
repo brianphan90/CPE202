@@ -1,0 +1,30 @@
+Ch 1.
+1. IDE stands for integrated development environment and IDE’s are good to use because they are simple to use and include a debugger which is useful. Also IDE also gives users to access to a shell within the IDE
+2. text = “Happy Birthday!”
+3. lst = text.split(“,”)
+4.  bDayWish  = text.upper()
+5. “Happy Birthday!”
+8. __lt__(self) is called when x<y is used. The method would be apart of the class in which its parameters would be from. For example in the textbook the method __add__ was under the dog class because its parameters were information from the dog class. 
+9.The method representing x<<y is called to return a int with a bit wise shift left of x by y bits.
+10. The loop and a half problem exists when the records of a input file are not one per line and instead multiple lines. In this case a while loop would be much better than a for loop. However, there needs to be a condition which checks if there is still lines to be read. This is where the half comes in which is to read the next line after the conditionals of the while loop executes.
+11. XML files are not read using the loop and a half pattern because XML files are universally accepted and are very stable unlike a standard text file where updates are required.
+12. Polymorphism means many forms and the idea is that there can be many ways in which a command is implemented. For example by having a separate class for each drawing method, each drawing method is executed when its specific class is called. Operator overloading is when the class will support the method also since the name of the method is operator overloaded. Example of this would be writing x = y which calls the int class __add__ method. They are both self intuitive in a way where by just calling the method python is then able to execute it for us without further code needed.
+13. print(“Please enter an integer”)
+    my_integer = input()
+    integer_lst= []	
+    for i in range(my_input):
+	if i%2 == 0:
+        integer_lst.append
+    print(sum(integer_lst)
+14. t = turtle.Turtle()
+15. The purpose of the frame is to pack widgets.
+16. Side bar widget, text box widget, and text label widget.
+17. One line of Code
+18.  Calling the method getElementsByTagName you can read a specific type of element from the xml file.
+Ex: graphicsCommands = xmldic.getElementsByTagName(“GraphicsCommands”)[0]
+19. By using the getElementsByTagName returns a list of all the elements that matches the tag name.
+     graphicsCommands_list = xmldic.getElementsByTagName(“GraphicsCommands”)
+20. Attributes are like parameters for elements. For example for the element that has the information for a GoTo command. The attributes would be the x and y coordinates as well as the width of the line and pen color. Ex: <Command x = “1.0” y = “1.0” width = “1.0” color = #000000”>GoTo</Command>
+    
+		
+
