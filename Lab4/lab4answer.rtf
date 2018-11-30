@@ -1,0 +1,22 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504
+{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 1. What is the best case, worst case, and average case complexity of selection sort, merge sort, and the quicksort algorithms?  Best case, worst case, and average case for selection sort would always be O(n^2). For merge sort it would always be O(nlog(n)) and for quick sort the best and average is O(nlog(n)), while the worst is O(n^2)\
+ 6. Why does quicksort perform better than merge sort? Quicksort is better because it does not need to copy to a new list and then back again.\
+7. Under what conditions would it be possible for merge sort to perform better than quicksort? If sequence given to the quick sort algorithm is almost sorted or sorted. This means that the pivot is chosen next to the least or greatest value causing a O(n^2)\
+ 8. Summarize what happens when a list is partitioned. When a list is portioned it is divided into two sections with a middle pivot point. All the values to the left of the pivot point are smaller than the pivot while all the values to the right of the pivot are greater than the pivot.\
+9. Summarize what happens when two lists are merged in the merge sort algorithm. \
+First the unsorted list are divided and appended to new lists until there are multiple lists of just one item. Lists of just one item are sorted lists. From there merge compares the indexes of the pairs of lists and recursively calls itself to append the smaller value of the two list first and so on until a sorted lists results.\
+10. What is the purpose of the start parameter to the select function of the selection sort algorithm? The start parameter is where the function starts looking for the smallest value, and after the smallest value is found start is incremented to put the next smallest value at that index.\
+11. What are the advantages of a linked list over a randomly accessible list implementation of a list data type? \
+There is an ease of insertion and deletion with O(1)\
+12. What are the advantages of a randomly accessible list over a linked list implementation of a list data type? \
+Random access to any of the data at any of the indexes are allowed since they are not linked to each other. Also linked lists take up more memory since there needs to be room for the reference to the item and the reference to the next node.\
+13. How does a stack differ from a queue in how we access it?  Stack is last in/first out while queue is first in/first out\
+14. What is the complexity of the radix sort algorithm? O(nk)}

@@ -1,0 +1,28 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 questions to answer: 3,4,6-12\
+\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f1\fs28 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 3. When the Python interpreter sees an identifier, in which scope does it look for the identifier first?  Python looks at the local scope and within it to see if the identifier is defined there.\
+4. What order are the various scopes inspected to see where or if a variable is defined?  Local, enclosing, global, and built in scope.\
+6. When is an activation record pushed onto the run-time stack?\
+When the function is called. \
+7. When is an activation record popped from the run-time stack?\
+When the function is returned.\
+ 8. What goes in the Heap in a computer?\
+Objects\
+ 9. What goes in an activation record on the run-time stack?\
+References to the objects stored in the heap.\
+ 10. When writing a recursive function, what are the two cases for which you must write code? \
+Base case, and the case in which it calls itself recursively with arguments that are smaller than the argument in the last call.\
+11. If a recursive function did not have a base case, what would happen when it was called? \
+It would continue to call itself over and over causing a stack overflow error.\
+12. What must be true of the recursive call in a recursive function? In other words, what must you ensure when making this recursive call?\
+The recursive call must have arguments that are smaller than the parameters that were passed to the function in the previous call.}

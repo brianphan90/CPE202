@@ -1,0 +1,29 @@
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+n = np.arange(1, 50, 1)
+
+# constants
+t = 60
+c = 2
+c1 = 2
+m = 5
+val_a = 0
+a = np.array([val_a]*len(n))
+
+const, = plt.plot(n, [1]*len(n) + a, color='green', label='O(1)')
+log,   = plt.plot(n, np.log10(n) + a, color='cyan', label='O(log(n))')
+nlog,  = plt.plot(n, n * np.log10(n) + a, color='blue', label='O(nlog(n))')
+lin,   = plt.plot(n, n + a, color='purple', label='O(n)')
+#poly,  = plt.plot(n, (n ** c) + a, color='red', label='O(n^'+str(c)+')')
+#exp,   = plt.plot(n, np.power([c1]*len(n), n), color='black', label='O('+str(c1)+'^n)')
+
+#plt.legend( handles = [const, log, nlog, lin, poly, exp] )
+plt.legend( handles = [const, log, nlog, lin])#, poly] )
+
+plt.xlabel('Number of Items: n')
+plt.ylabel('Number of Operations: T(n)')
+
+plt.title('Common Complexities')
+plt.show()
