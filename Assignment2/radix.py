@@ -44,9 +44,8 @@ def charAt(s,i):        #returns the character at i if not returns a blank and s
         return ""
     return s[i]
 
-
+def radix_sort(unsort_lst):
    
-def radixsort(unsort_lst,random = None):
     max_len = get_max_length(unsort_lst)
     eq_lst = pad_words(unsort_lst, max_len)
     mainQueue = Queue()
@@ -74,11 +73,10 @@ def radixsort(unsort_lst,random = None):
     for item in mainQueue.items:
         fin_i = item.replace(" ","")
         fin_q.enqueue(fin_i)
-    return fin_q.items   
-un = '10', '9', '8', '7', '6', '5'
-print(radixsort(un))
+    print(fin_q.items)
     
-
+radix_sort(["", "CBA", "BCD"])
+#print(ord(' '))
     
 
         
